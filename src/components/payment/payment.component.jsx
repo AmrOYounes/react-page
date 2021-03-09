@@ -14,7 +14,7 @@ function Payment() {
         </div>
         <div className='annual-fee-container'>
            <div className='fee-text'> annual fee</div>
-           <div className='fee-value'> $0</div>
+           <div className='fee-value'>$0</div>
            <div className='fee-description'> late and returned payment fees may apply  </div>
         </div>
         <div className='apply-button-container' >
@@ -23,8 +23,8 @@ function Payment() {
           </div>
         </div>
         <div className='learn-more'>
-          <div> learn more</div>
-          <span> Rewards program  |  Terms and Conditions </span>
+          <div className='title'> learn more</div>
+          <span className='content'> Rewards program  |  Terms and Conditions </span>
         </div>
         <div>
             <img className='payment-methods' src={PaymentPic} alt="payment"/>
